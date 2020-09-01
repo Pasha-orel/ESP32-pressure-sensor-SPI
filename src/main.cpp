@@ -66,5 +66,6 @@ void loop() {
   Serial.print("Pa");
   Serial.println();
   delay(1000);
-  // for test
+  // for test home
+
 }
