@@ -61,7 +61,7 @@ void setup() {
                   Adafruit_BMP280::STANDBY_MS_500); /* Standby time. */
   delay(1000);
 if (!bmp3.begin()) {
-    Serial.println(F("Could not find a valid BMP280-2 sensor, check wiring!"));
+    Serial.println(F("Could not find a valid BMP280-3 sensor, check wiring!"));
     //while (1);
   }
 
